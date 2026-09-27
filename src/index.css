@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html {
+    /*Para que 1 rem = 10px*/
+    font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    background-image: url(../img/fondo.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1, h2, h3, p {
+  color: black;
+  font-size:16px;
+}
+
+.image {
+    filter: invert(100%);
+}

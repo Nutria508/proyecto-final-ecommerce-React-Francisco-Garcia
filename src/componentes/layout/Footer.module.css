@@ -1,0 +1,38 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 15vh;
+    padding: 2rem;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer img {
+    filter: invert(100%)
+}
+
+.footer nav {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer nav ul {
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.footer nav ul a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer__companies {
+    display: flex;
+    margin-right: 2rem;
+}
