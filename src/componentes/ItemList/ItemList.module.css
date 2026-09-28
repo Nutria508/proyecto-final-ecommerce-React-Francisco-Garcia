@@ -1,0 +1,14 @@
+.productos_home {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.contenedor_tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-direction: row;
+}

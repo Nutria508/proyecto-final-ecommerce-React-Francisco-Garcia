@@ -2,12 +2,12 @@ import { ItemList } from "../ItemList/ItemList";
 //import styles from './ItemListContainer.module.css';
 
 export function ItemListContainer({ Mensaje }) {
-    const productos = [
-        { id: '12345', nombre: 'Notebook Pro', precio: 1200, stock: 15 },
-        { id: '12345', nombre: 'Notebook Pro', precio: 1200, stock: 15 },
-        { id: '12345', nombre: 'Notebook Pro', precio: 1200, stock: 15 },
-    ];
-    const productos2=[
+   // const productos = [
+   //     { id: '12345', nombre: 'Notebook Pro', precio: 1200, stock: 15 },
+   //     { id: '12345', nombre: 'Notebook Pro', precio: 1200, stock: 15 },
+    //    { id: '12345', nombre: 'Notebook Pro', precio: 1200, stock: 15 },
+    //];
+    const productos=[
 
     {
         id: "1",

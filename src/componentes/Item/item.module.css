@@ -1,0 +1,41 @@
+.tarjeta_producto {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.tarjeta_producto:hover {
+    border: 0.25rem solid;
+}
+
+.tarjeta_producto div {
+    display: flex;
+    margin: 2px;
+    align-items: center;
+}
+
+.tarjeta_producto div button {
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.tarjeta_producto div button img {
+    padding-left: 12px;
+    height: fit-content;
+}
+
+.tarjeta_producto img {
+    width: 100%;
+    border-radius: 1px;
+}
+.image {
+    filter: invert(100%);
+}

@@ -1,9 +1,17 @@
-export function Item ({ nombre, precio, stock}){
+import styles from './Item.module.css'
+
+export function Item ({ nombre, precio, img,}){
     return(
-        <div>
+        <article className={styles.tarjeta_producto}>
+            <img src={img} alt={nombre}/>
             <h3>{nombre}</h3>
-            <p>Stock disponible: {stock}</p>
-            <button> Comprar</button>
-        </div>
+            <div>
+                <p>{precio}</p>
+                <button className={styles.btn}>
+                    <img className={styles.image} src="./img/carrito-de-compras.png" alt="Agregar al carrito"/>
+                </button>
+            </div>
+
+        </article>
     );
 }
