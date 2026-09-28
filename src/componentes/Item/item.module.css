@@ -39,3 +39,13 @@
 .image {
     filter: invert(100%);
 }
+main h1 {
+    font-size: 4rem;
+    margin: 2rem 0;
+
+}
+
+main h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}

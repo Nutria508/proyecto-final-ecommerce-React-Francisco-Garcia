@@ -16,10 +16,7 @@ body {
     color: white;
 }
 
-h1, h2, h3, p {
-  color: black;
-  font-size:16px;
-}
+
 
 .image {
     filter: invert(100%);
