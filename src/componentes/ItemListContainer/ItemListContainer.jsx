@@ -1,5 +1,5 @@
 import { ItemList } from "../ItemList/ItemList";
-//import styles from './ItemListContainer.module.css';
+import styles from './ItemListContainer.module.css';
 
 export function ItemListContainer({ Mensaje }) {
     const productos=[
@@ -174,11 +174,11 @@ export function ItemListContainer({ Mensaje }) {
     }
 ];
     return (
-        <div>
+        <section className ={styles.productos_home}>
             <h2>{Mensaje}</h2>
             <div>
                 <ItemList productos={productos} />
             </div>
-        </div>
+        </section>
     );
 }

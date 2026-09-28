@@ -45,3 +45,39 @@
     padding: 0.5rem;
 
 }
+
+#mostrarCarrito {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    filter: invert(100%);
+}
+
+#mostrarCarrito:hover {
+    cursor: pointer;
+}
+
+/*.................................................................................................
+
+                                             Media Queries
+
+....................................................................................................*/
+
+@media (max-width:600px) {
+    .header__nav ul{
+        flex-wrap: wrap;
+    }
+    .header {
+        justify-content: center;
+    }
+
+    .header nav {
+        margin-right: 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__nav ul{
+        flex-wrap: wrap;
+    }
+}
