@@ -1,14 +1,18 @@
+import styles from './Layout.module.css';
 import Header from './Header';
-import Footer from './Footer'
+import Footer from './Footer';
+import {Outlet} from 'react-router-dom';
 
-export function Layout({ children }) {
+
+export function Layout() {
     return (
-        <div>
+        <>
             <Header />
-            <main>
-                {children}
+            <main className={styles.main_home}>
+                
+                <Outlet/>
             </main>
             <Footer />
-        </div>
+        </>
     );
 }

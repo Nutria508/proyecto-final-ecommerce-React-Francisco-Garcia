@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ItemList } from "../ItemList/ItemList";
 import styles from './ItemListContainer.module.css';
 
-export function ItemListContainer({ Mensaje }) {
+export function ItemListContainer() {
 
     const [productos, setProductos] = useState([]);
     const [error, setError] = useState(null);
@@ -34,7 +34,7 @@ export function ItemListContainer({ Mensaje }) {
     }
     return (
         <section className={styles.productos_home}>
-            <h2>{Mensaje}</h2>
+            <h2>"Nuestros productos"</h2>
             <div>
                 <ItemList productos={productos} />
             </div>

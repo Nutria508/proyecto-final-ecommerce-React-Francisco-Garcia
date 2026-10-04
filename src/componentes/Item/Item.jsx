@@ -18,7 +18,7 @@ export function Item({ nombre, precio, img, }) {
             <div>
                 <p>$ {precio}</p>
                 <button onClick={CompraClick} className={styles.btn}>
-                    <img className={styles.image} src="./img/carrito-de-compras.png" alt="Agregar al carrito" />
+                    <img className={styles.image} src="./images/carrito-de-compras.png" alt="Agregar al carrito" />
                 </button>
 
                 <span onClick={marcarComoFavorito}> 
