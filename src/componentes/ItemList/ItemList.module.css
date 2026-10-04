@@ -1,7 +1,6 @@
 .productos_home {
     width: 100%;
     text-align: center;
-
 }
 
 
@@ -11,4 +10,5 @@
     flex-wrap: wrap;
     gap: 2rem;
     flex-direction: row;
+    margin: 1%;
 }

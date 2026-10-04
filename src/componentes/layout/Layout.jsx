@@ -9,7 +9,6 @@ export function Layout() {
         <>
             <Header />
             <main className={styles.main_home}>
-                
                 <Outlet/>
             </main>
             <Footer />
