@@ -12,15 +12,15 @@ function Footer() {
             </nav>
             <nav>
                 <ul className={styles.footer__companies}>
-                    <li><a href="https://www.facebook.com" target="_blank"><img src="./img/facebook.png" alt="facebook"/></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank"><img src="./img/instagram.png" alt="instagram"/></a></li>
-                    <li><a href="https://x.com/" target="_blank"><img src="./img/twitter-alt.png" alt="twitter"/></a>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"/></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.png" alt="instagram"/></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="./images/twitter-alt.png" alt="twitter"/></a>
                     </li>
-                    <li><a href="https://web.whatsapp.com/" target="_blank"><img src="./img/whatsapp.png"
+                    <li><a href="https://web.whatsapp.com/" target="_blank"><img src="./images/whatsapp.png"
                         alt="whatsapp"/></a></li>
-                    <li><a href="https://web.telegram.org/" target="_blank"><img src="./img/telegram.png"
+                    <li><a href="https://web.telegram.org/" target="_blank"><img src="./images/telegram.png"
                         alt="telegram"/></a></li>
-                    <li><a href="https://discord.com/" target="_blank"><img src="./img/discord.png"
+                    <li><a href="https://discord.com/" target="_blank"><img src="./images/discord.png"
                         alt="discord"/></a></li>
                 </ul>
             </nav>

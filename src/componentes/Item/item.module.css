@@ -32,6 +32,10 @@
     height: fit-content;
 }
 
+.tarjeta_producto div span {
+    font-size: 30px;
+}
+
 .tarjeta_producto img {
     width: 100%;
     border-radius: 1px;
